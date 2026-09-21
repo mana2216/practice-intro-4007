@@ -10818,10 +10818,10 @@ scalingButton.on("click", function () {
 movingButton.on("click", function () {
   block.animate({
     marginLeft: '500pt'
-  }, 2000);
+  }, 500);
   block.animate({
     marginLeft: '20pt'
-  }, 2000);
+  }, 1000);
 });
 })();
 
